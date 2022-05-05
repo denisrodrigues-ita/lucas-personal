@@ -9,47 +9,14 @@ body {
     height: 600px;
 }
 
-.header-top {
-    background-color: black;
-    height: 50px;
-    background-position: center;
-    background-size: contain;
+.header-top div {
+    height: 500px;
 }
 
-.header-top nav ul {
-    margin: 0;
-    text-align: center;
-}
-
-.header-top nav ul li {
-    display: inline-block;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 50px 80px;
-    position: relative;
-}
-
-.header-top nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 0px;
-    color: white;
-    box-sizing: border-box;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-}
-
-.header-top nav ul li a:hover {
-    text-shadow: 1px 1px red;
-    text-decoration: underline;
-    font-size: x-large;
-    box-sizing: border-box;
-}
-
-img {
+.header-top div img {
     width: 100%;
+    height: 100%;
+    background-position: center;
 }
 
 address p {

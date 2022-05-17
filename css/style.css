@@ -1,0 +1,76 @@
+header {
+    overflow: auto;
+}
+
+address {
+    margin-top: 3em;
+    text-align: center;
+}
+
+address a {
+    color: inherit;
+}
+
+address iframe {
+    background-color: white;
+    margin-top: 1em;
+    max-width: 100%;
+    max-height: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    padding: 1.5em 0;
+    text-align: center;
+    background-image: linear-gradient(to top, black, darkgray);
+}
+
+.principal {
+    margin: 0 20%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.principal img {
+    max-width: 100%;
+    max-height: max-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.link {
+    list-style-type: none;
+    padding: 0;
+    margin: 3em 0 0 0;
+    text-align: center;
+}
+
+.link>li {
+    display: inline-block;
+    text-align: center;
+    margin: 5%;
+}
+
+.link li a {
+    color: white;
+    font-size: 50px;
+}
+
+.list {
+    text-align: center;
+    margin-top: 3em;
+    list-style: none;
+    padding: 0;
+    margin-left: 2%;
+}
+
+
+
+
+
